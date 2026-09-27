@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ilham - TJKT Student Portfolio. Networking, IoT, Web Development." />
+  <title>Ilham | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Ilham Maulana Fandholy</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#journey" class="nav-link">Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Ilham Fadholii</h1>
+        <h2 class="hero-role">
+          <span class="typing-text" id="typingText"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          Saya adalah siswa TJKT yang tertarik pada networking, IoT, web development, dan teknologi.
+          Saya terus belajar melalui praktik dan berbagai project.
+        </p>
+        <div class="hero-tags">
+          <span class="tag">Networking</span>
+          <span class="tag">IoT</span>
+          <span class="tag">Web Development</span>
+        </div>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="images/profile.jpg" alt="Foto Ilham" />
+          <div class="image-ring"></div>
+          <div class="image-ring ring-2"></div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="bx bx-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image fade-in">
+          <div class="about-img-wrapper">
+            <img src="images/profile.jpg" alt="Foto Ilham" />
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <h3>Hi, I'm <span class="highlight">Ilham Maulana Fandholy</span></h3>
+          <p>
+            Saya adalah siswa SMK jurusan Teknik Jaringan Komputer dan Telekomunikasi (TJKT).
+            Saya memiliki ketertarikan besar pada dunia jaringan komputer, IoT, dan pengembangan web.
+          </p>
+          <p>
+            Saya senang mempelajari teknologi melalui praktik langsung dan pengerjaan project nyata.
+            Setiap project yang saya kerjakan menjadi bagian dari proses belajar yang terus berkembang.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <i class="bx bx-graduation"></i>
+              <span>Student SMK</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-desktop"></i>
+              <span>Jurusan TJKT</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-network-chart"></i>
+              <span>Networking</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-chip"></i>
+              <span>IoT</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-seedling"></i>
+              <span>Continuous Learning</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">My Skills</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Teknologi dan tools yang saya pelajari</p>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">
+            <i class="bx bx-network-chart"></i>
+          </div>
+          <h3 class="skill-title">Networking</h3>
+          <ul class="skill-list">
+            <li><i class="bx bx-check"></i> MikroTik</li>
+            <li><i class="bx bx-check"></i> Routing</li>
+            <li><i class="bx bx-check"></i> OSPF</li>
+            <li><i class="bx bx-check"></i> TCP/IP</li>
+            <li><i class="bx bx-check"></i> Subnetting</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <h3 class="skill-title">Programming</h3>
+          <ul class="skill-list">
+            <li><i class="bx bx-check"></i> HTML</li>
+            <li><i class="bx bx-check"></i> CSS</li>
+            <li><i class="bx bx-check"></i> JavaScript</li>
+            <li><i class="bx bx-check"></i> PHP</li>
+            <li><i class="bx bx-check"></i> Python Basic</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">
+            <i class="bx bx-chip"></i>
+          </div>
+          <h3 class="skill-title">IoT</h3>
+          <ul class="skill-list">
+            <li><i class="bx bx-check"></i> ESP32</li>
+            <li><i class="bx bx-check"></i> Arduino</li>
+            <li><i class="bx bx-check"></i> Sensor</li>
+            <li><i class="bx bx-check"></i> OLED Display</li>
+            <li><i class="bx bx-check"></i> Blynk</li>
+            <li><i class="bx bx-check"></i> Firebase</li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-icon">
+            <i class="bx bx-wrench"></i>
+          </div>
+          <h3 class="skill-title">Tools</h3>
+          <ul class="skill-list">
+            <li><i class="bx bx-check"></i> VS Code</li>
+            <li><i class="bx bx-check"></i> Arduino IDE</li>
+            <li><i class="bx bx-check"></i> GitHub</li>
+            <li><i class="bx bx-check"></i> VirtualBox</li>
+            <li><i class="bx bx-check"></i> Linux</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">My Projects</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Beberapa project yang pernah saya kerjakan</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="networking">Networking</button>
+        <button class="filter-btn" data-filter="iot">IoT</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Smart Irrigation -->
+        <div class="project-card fade-in" data-category="iot">
+          <div class="project-image">
+            <img src="images/project-irrigation.jpg" alt="Smart Irrigation IoT Project" />
+            <div class="project-overlay">
+              <a href="#" class="project-link" aria-label="View Smart Irrigation project">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Smart Irrigation IoT</h3>
+            <p class="project-desc">
+              Sistem penyiraman tanaman otomatis menggunakan ESP32, sensor kelembapan tanah, relay dan pompa air.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">ESP32</span>
+              <span class="project-tag">IoT</span>
+              <span class="project-tag">Arduino</span>
+            </div>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2: MikroTik OSPF -->
+        <div class="project-card fade-in" data-category="networking">
+          <div class="project-image">
+            <img src="images/project-mikrotik.jpg" alt="MikroTik OSPF Network Project" />
+            <div class="project-overlay">
+              <a href="#" class="project-link" aria-label="View MikroTik OSPF project">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">MikroTik OSPF Network</h3>
+            <p class="project-desc">
+              Implementasi dynamic routing menggunakan beberapa router MikroTik dengan protokol OSPF.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">MikroTik</span>
+              <span class="project-tag">OSPF</span>
+              <span class="project-tag">Routing</span>
+            </div>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3: Personal Portfolio -->
+        <div class="project-card fade-in" data-category="web">
+          <div class="project-image">
+            <img src="images/project-portfolio.jpg" alt="Personal Portfolio Website" />
+            <div class="project-overlay">
+              <a href="#" class="project-link" aria-label="View Portfolio project">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-desc">
+              Website portfolio pribadi yang dibangun menggunakan HTML, CSS, dan JavaScript murni.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 4: Coming Soon -->
+        <div class="project-card project-coming fade-in" data-category="all">
+          <div class="coming-soon-content">
+            <div class="coming-icon">
+              <i class="bx bx-plus-circle"></i>
+            </div>
+            <h3>Coming Soon</h3>
+            <p>Project berikutnya akan ditambahkan di sini. Stay tuned!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEARNING JOURNEY ===== -->
+  <section class="journey section" id="journey">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">My Learning Journey</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">
+          Perjalanan belajar saya dimulai dari dasar komputer dan terus berkembang ke networking,
+          programming, IoT, Linux, hingga cloud computing.
+        </p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2024</div>
+          <div class="timeline-card">
+            <h3>Awal Perjalanan</h3>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> Basic Computer</li>
+              <li><i class="bx bx-chevron-right"></i> Dasar-dasar Teknologi</li>
+              <li><i class="bx bx-chevron-right"></i> Mulai Belajar SMK TJKT</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2025</div>
+          <div class="timeline-card">
+            <h3>Berkembang</h3>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> HTML &amp; CSS</li>
+              <li><i class="bx bx-chevron-right"></i> Networking Dasar</li>
+              <li><i class="bx bx-chevron-right"></i> MikroTik</li>
+              <li><i class="bx bx-chevron-right"></i> JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2026</div>
+          <div class="timeline-card">
+            <h3>Eksplorasi Lebih Dalam</h3>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> OSPF Routing</li>
+              <li><i class="bx bx-chevron-right"></i> ESP32 &amp; IoT</li>
+              <li><i class="bx bx-chevron-right"></i> Linux</li>
+              <li><i class="bx bx-chevron-right"></i> Cloud Computing</li>
+              <li><i class="bx bx-chevron-right"></i> Project Nyata</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot dot-active"></div>
+          <div class="timeline-year year-active">Now</div>
+          <div class="timeline-card card-active">
+            <h3>Keep Learning 🚀</h3>
+            <p>Terus belajar, terus berkembang, dan terus berkarya.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Currently Learning -->
+      <div class="currently-learning">
+        <h3 class="currently-title fade-in">Currently Learning</h3>
+        <div class="currently-grid">
+
+          <div class="currently-card fade-in">
+            <div class="currently-icon">
+              <i class="bx bx-network-chart"></i>
+            </div>
+            <h4>Networking</h4>
+            <p>MikroTik &amp; Network Basics</p>
+          </div>
+
+          <div class="currently-card fade-in">
+            <div class="currently-icon">
+              <i class="bx bx-cloud"></i>
+            </div>
+            <h4>Cloud</h4>
+            <p>Cloud Computing Fundamentals</p>
+          </div>
+
+          <div class="currently-card fade-in">
+            <div class="currently-icon">
+              <i class="bx bxl-tux"></i>
+            </div>
+            <h4>Linux</h4>
+            <p>Linux &amp; Server Fundamentals</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">
+          Jika ingin berdiskusi, berkolaborasi, atau sekadar terhubung, silakan hubungi saya.
+        </p>
+      </div>
+
+      <div class="contact-content">
+
+        <div class="contact-info fade-in">
+          <h3>Hubungi Saya</h3>
+          <p>Saya terbuka untuk diskusi tentang teknologi, project kolaborasi, atau sekadar berbagi ilmu.</p>
+
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <i class="bx bxl-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <i class="bx bxl-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://wa.me/62" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp">
+              <i class="bx bxl-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form fade-in" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              autocomplete="name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              autocomplete="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="bx bx-send"></i> Send Message
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="footer-logo">Ilham</a>
+        <p class="footer-tagline">Student &bull; Networking &bull; Technology</p>
+        <div class="footer-socials">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://wa.me/62" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ilham. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="bx bx-up-arrow-alt"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
